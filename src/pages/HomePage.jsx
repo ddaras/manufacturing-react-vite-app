@@ -7,7 +7,7 @@ const MATERIAL_REQUISITION_STATUSES = [
   {
     title: "MR Created",
     value: 100,
-    variant: 'warning'
+    variant: 'primary'
   },
   {
     title: "MR Approved",
@@ -83,7 +83,7 @@ function HomePage() {
                   >
                     <Card.Header>{item.title}</Card.Header>
                     <Card.Body>
-                      <Card.Title>{item.value}</Card.Title>
+                      <Card.Title style={{ fontSize: '2rem' }}>{item.value}</Card.Title>
                     </Card.Body>
                   </Card>
                 ))}

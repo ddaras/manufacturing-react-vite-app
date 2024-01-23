@@ -8,8 +8,8 @@ function Header() {
   return (
     <Stack direction="horizontal" gap={5} className="border-bottom border-body-tertiary px-5">
       <div>
-        <Navbar expand="lg" >
-          <Navbar.Brand href="/">Company Logo</Navbar.Brand>
+        <Navbar expand="lg" className='p-0'>
+          <Navbar.Brand href="/" style={{ backgroundColor: 'var(--bs-primary)', color: '#fff', }} className='py-4 px-5'>Company Logo</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="me-auto">
@@ -30,7 +30,7 @@ function Header() {
           </Navbar.Collapse>
         </Navbar>
       </div>
-      <div className="p-2 ms-auto">
+      <div className="ms-auto">
         <Stack direction="horizontal" gap={2}>
           <Button variant="link"><BellFill /></Button>
           <Button variant="link"><PersonFill /></Button>

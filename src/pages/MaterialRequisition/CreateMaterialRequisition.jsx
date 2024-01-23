@@ -149,7 +149,7 @@ function CreateMaterialRequisition() {
         <Row className="mb-4" style={{ minHeight: 220 }}>
           <Col sm={3}>
             <h6>MR Creator By : TVN POC</h6>
-            <Button disabled size="lg">SUBMIT</Button>
+            <Button variant="secondary" disabled size="lg">SUBMIT</Button>
           </Col>
           <Col sm={3}>
             <h6>S/N Creator By : WH Team (Proj & TVN)</h6>
@@ -157,7 +157,7 @@ function CreateMaterialRequisition() {
           </Col>
           <Col style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-end' }}>
             <h6 style={{ opacity: 0 }}>{'-'}</h6>
-            <Button variant="success" disabled size="lg" style={{ minWidth: 240 }}>PRINT</Button>
+            <Button variant="secondary" disabled size="lg" style={{ minWidth: 240 }}>PRINT</Button>
           </Col>
         </Row>
 

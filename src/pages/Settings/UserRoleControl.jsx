@@ -74,7 +74,7 @@ function UserRoleControl() {
                     ))}
                   </div>
 
-                  <Button variant="primary">Update</Button>
+                  <Button variant="primary" style={{ width: '100%' }}>Update</Button>
                 </Card.Body>
               </Card>
             </Col>
